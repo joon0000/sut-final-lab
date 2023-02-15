@@ -13,7 +13,7 @@ func TestCustomerValidatePass (*t testing) {
 		c := Customer{
 			Name: "kawin",
 			Email: "kawin@gmail.com",
-			CustomerID: "L7654321",
+			CustomerID: "L6541237",
 		}
 
 		ok,err := govalidator.ValidateStruct(c)
